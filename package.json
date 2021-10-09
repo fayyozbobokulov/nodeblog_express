@@ -1,11 +1,26 @@
 {
   "name": "nodeblog_express",
   "version": "1.0.0",
-  "description": "```bash $ npm install ```",
-  "main": "index.js",
+  "description": "Node Blog",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -w",
+    "start:dev": "nodemon dist/server.js"
   },
   "author": "Fayyoz Bobokulov",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^16.10.3",
+    "D": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "ts-node": "^10.2.1",
+    "typeorm": "^0.2.38"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
 }
