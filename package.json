@@ -1,0 +1,11 @@
+{
+  "name": "nodeblog_express",
+  "version": "1.0.0",
+  "description": "```bash $ npm install ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fayyoz Bobokulov",
+  "license": "MIT"
+}
